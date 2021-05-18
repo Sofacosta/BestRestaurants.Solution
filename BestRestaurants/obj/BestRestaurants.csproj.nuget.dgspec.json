@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sofiaacosta/Epicodus/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj": {}
+    "/Users/jcallahan/Desktop/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj": {}
   },
   "projects": {
-    "/Users/sofiaacosta/Epicodus/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj": {
+    "/Users/jcallahan/Desktop/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sofiaacosta/Epicodus/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj",
+        "projectUniqueName": "/Users/jcallahan/Desktop/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj",
         "projectName": "BestRestaurants",
-        "projectPath": "/Users/sofiaacosta/Epicodus/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj",
-        "packagesPath": "/Users/sofiaacosta/.nuget/packages/",
-        "outputPath": "/Users/sofiaacosta/Epicodus/BestRestaurants.Solution/BestRestaurants/obj/",
+        "projectPath": "/Users/jcallahan/Desktop/BestRestaurants.Solution/BestRestaurants/BestRestaurants.csproj",
+        "packagesPath": "/Users/jcallahan/.nuget/packages/",
+        "outputPath": "/Users/jcallahan/Desktop/BestRestaurants.Solution/BestRestaurants/obj/",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/sofiaacosta/.nuget/NuGet/NuGet.Config"
+          "/Users/jcallahan/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

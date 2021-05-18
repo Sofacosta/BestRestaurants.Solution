@@ -17,9 +17,12 @@
   @Html.LabelFor(model => model.PriceRange)
   @Html.TextBoxFor(model => model.PriceRange)
 
+  @Html.LabelFor(model => model.MenuLink)
+  @Html.TextBoxFor(model => model.MenuLink)
+
   @Html.LabelFor(model => model.Cuisine)
   @Html.DropDownList("CuisineId")
 
-  <input type="submit" value="Add new restaurant" class="btn btn-default" />
+  <input type="submit" value="Add new restaurant" class="btn btn-success" />
 }
 <p>@Html.ActionLink("Show all restaurants", "Index")</p>

@@ -11,7 +11,7 @@
 @using (Html.BeginForm())
 {
   @Html.HiddenFor(model => model.RestaurantId)
-  
+
   @Html.LabelFor(model => model.Description)
   @Html.EditorFor(model => model.Description)
 
@@ -21,10 +21,14 @@
   @Html.LabelFor(model => model.PriceRange)
   @Html.EditorFor(model => model.PriceRange)
 
+  @Html.LabelFor(model => model.MenuLink)
+  @Html.TextBoxFor(model => model.MenuLink)
+
+
   @Html.LabelFor(model => model.Cuisine)
   @Html.DropDownList("CuisineId")
 
-  <input type="submit" value="save"/>  
+  <input type="submit" value="save" />
 }
 
 <p>@Html.ActionLink("Back to list", "Index")</p>
